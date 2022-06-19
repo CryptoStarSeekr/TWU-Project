@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #ff8c00;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -211,11 +211,11 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+	#houston {
+		-moz-animation: houston 60s linear infinite;
+		-webkit-animation: houston 60s linear infinite;
+		-ms-animation: houston 60s linear infinite;
+		animation: houston 60s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("images/houston.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -251,7 +251,7 @@ input, select, textarea {
 		}
 	}
 
-	@-webkit-keyframes bg {
+	@-webkit-keyframes houston {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -267,7 +267,7 @@ input, select, textarea {
 		}
 	}
 
-	@-ms-keyframes bg {
+	@-ms-keyframes houston {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -283,7 +283,7 @@ input, select, textarea {
 		}
 	}
 
-	@keyframes bg {
+	@keyframes houston {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -299,7 +299,7 @@ input, select, textarea {
 		}
 	}
 
-	#bg {
+	#houston {
 		background-size: 2250px auto;
 		width: 6750px;
 	}
@@ -561,9 +561,9 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.45em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: .99;
 		}
 
 		#header nav {
