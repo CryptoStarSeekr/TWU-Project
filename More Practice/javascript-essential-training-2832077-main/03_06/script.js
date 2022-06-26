@@ -5,7 +5,7 @@
 const backpack = {
   name: "Everyday Backpack",
   volume: 30,
-  color: "Black",
+  color: "Purple",
   pocketNum: 20,
   strapLength: {
     left: 26,
