@@ -5,8 +5,8 @@
 const backpack = {
   name: "Everyday Backpack",
   volume: 30,
-  color: "grey",
-  pocketNum: 15,
+  color: "Black",
+  pocketNum: 20,
   strapLength: {
     left: 26,
     right: 26,
@@ -22,3 +22,5 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log('The number of pockets:',backpack.pocketNum)
+console.log('Color Of Bag:',backpack.color) 
