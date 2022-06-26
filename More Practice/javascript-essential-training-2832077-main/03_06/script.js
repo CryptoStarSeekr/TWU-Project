@@ -24,3 +24,7 @@ const backpack = {
 console.log("The backpack object:", backpack);
 console.log('The number of pockets:',backpack.pocketNum)
 console.log('Color Of Bag:',backpack.color) 
+
+var query = 'color'; 
+
+console.log('The Color:', backpack[query]); 
