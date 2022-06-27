@@ -25,5 +25,3 @@ class Dresser {
         this.drawerOpen = DrawerOpen
     }
     }
-console.log ('The Item:', Dresser);
-console.log ('Color of Dressor:', )
